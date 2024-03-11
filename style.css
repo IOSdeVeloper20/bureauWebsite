@@ -319,3 +319,87 @@ footer{
 .copy-icon{
     font-size: 1.3em;
 }
+
+
+/* about_page */
+
+.card-section-about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#info-in-about{
+    background-color: #EDEDED;
+}
+
+.card-section-image{
+   display: flex;
+   align-items: center;
+}
+
+.card-section-image img{
+    width: 46.046vw;
+    height: 60.061vh;
+    border-radius: 50px;
+}
+
+.message{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+}
+
+.message-image{
+    width: 16.18vw;
+    height: 38.28vh;
+    margin: 1em;
+}
+
+.message-image img{
+    width: 100%;
+}
+
+#abosad{
+    height: 40vh;
+}
+
+.message-title{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 1em;
+}
+
+.message-icon{
+    color: #082B39;
+    font-size: 5em;
+    padding: 0.1em;
+}
+
+.title-text{
+    font-size: 30px;
+    padding: 0.5em;
+    color: #024160;
+}
+
+.title-text h4{
+    font-weight: 400;
+}
+
+.message-info{
+    font-size: 17px;
+    width: 41.14vw;
+    margin: 1em;
+}
+
+#icon-in-about{
+    font-size: 4em;   
+}
+
+#icon-info-in-about{
+    font-size: 22px;
+}
+
+#info-in-about{
+    background-color: #fff;
+}
