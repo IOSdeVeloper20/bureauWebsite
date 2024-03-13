@@ -71,10 +71,21 @@ section{
     max-width: 100%;
     overflow: hidden;
     border-radius: 30px;
+    position: relative;
 }
 
 .slider-contents img{
     width: 100%;
+}
+
+.top-right{
+    position: absolute;
+    top: 20px;
+    right: 40px;
+    color: #203908;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
 }
 
 .card-section {
@@ -108,6 +119,10 @@ section{
     border-radius: 25px;
     padding: 1em;
     margin: 10px;
+}
+
+.info ol{
+    padding-left: 1.1em;
 }
 
 span{
@@ -329,7 +344,7 @@ footer{
     align-items: center;
 }
 
-#info-in-about{
+#info-in-about {
     background-color: #EDEDED;
 }
 
@@ -400,6 +415,59 @@ footer{
     font-size: 22px;
 }
 
-#info-in-about{
-    background-color: #fff;
+#bottom-about{
+    display: flex;
+    justify-content: center;
+}
+
+.about-bottom-container{
+    width: 95%;
+    display: flex;
+    align-items: end;
+}
+
+.about-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-right: 1em;
+}
+
+.about-bottom-title{
+    display: flex;
+    align-items: center;
+}
+
+.about-bottom-title i{
+    font-size: 45px;
+    padding: 0.2em;
+    -webkit-transform: scaleX(-1);
+}
+
+.about-bottom-title h1{
+    font-size: 32px;
+    padding-left: 1em;
+    margin-top: 0.2em;
+}
+
+.about-bottom-text h3{
+    padding: 0.5em;
+    font-size: 17px;
+    margin-top: 1em;
+}
+
+.about-bottom-text ul{
+    width: 95%;
+    padding: 0.3em 1em 0.3em 1.7em;
+    margin-top: 1em;
+}
+
+.about-bottom-image{
+    width: 90vw;
+    height: 70vh;
+    margin-left: 1em;
+}
+
+.about-bottom-image img{
+    width: 100%;
+    height: 100%;
 }
