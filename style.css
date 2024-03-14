@@ -67,7 +67,6 @@ section{
     margin: -8px;
     width: 95%;
     display: flex;
-    flex-direction: row;
     max-width: 100%;
     overflow: hidden;
     border-radius: 30px;
@@ -489,12 +488,84 @@ footer{
 #card-section-in-inspections{
     width: 95%;
     margin-top: -30px;
+    margin-bottom: 0px;
     z-index: 2;
     opacity: 0.8;
 }
 
 #info-section-in-inspection{
     padding: 1em;
+    padding-bottom: 0px;
     font-size: 22px;
     background-color: #DEDEDE;
+}
+
+.middle-container{
+    width: 95%;
+}
+
+.middle-top-section{
+    display: flex;
+}
+
+.middle-top-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #11B5EA;
+    border-radius: 20px 20px 0px 20px;
+    padding: 1em;
+    text-align: center;
+}
+
+.middle-top-title-icon{
+    color: #082B39;
+    font-size: 48px;
+    padding-right: 1em;
+}
+
+.middle-top-title-text{
+    color: #024160;
+    padding-right: 1em;
+} 
+
+.middle-top-info{
+    margin: 1.2em 5em 1em 1em;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.middle-top-right{
+    width: 100vw;
+    position: relative;
+    right: 15px;
+}
+
+.middle-top-right img{
+    width: 100%;
+    border-radius: 30px;
+}
+
+.middle-list{
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    line-height: 2;
+}
+
+.middle-list a{
+    color: #000;
+}
+
+#bottom-in-inspections{
+}
+
+.bottom-image-in-inspections{
+    width: 100%;
+}
+
+.bottom-image-in-inspections img{
+    width: 100%;
+    height: 312px;
+    border-radius: 26px;
 }
