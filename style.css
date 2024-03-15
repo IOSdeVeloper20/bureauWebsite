@@ -14,21 +14,30 @@ header{
     background-color: #fff;
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     padding: 10px 50px;
 }
 
 .logo img{
-    width: 300px;
-    height: 70px;
+    width: 100%;
+    height: 12vh;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: wrap;
+    width: 76%;
+    justify-content: space-between;
+    padding-left: 2%;
 }
 
 .navigation a{
     color: #041158;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.3vw;
     font-weight: 500;
-    padding-left: 30px;
+    /* padding-left: 5%; */
 }
 
 .navigation a:hover{
@@ -37,7 +46,7 @@ header{
 
 .header-social-icon a{
     color: #11B5EA;
-    font-size: 1.7em;
+    font-size: 2vw;
     padding-right: 30px;
     justify-content: left;
     float: right;
@@ -79,12 +88,12 @@ section{
 
 .top-right{
     position: absolute;
-    top: 20px;
-    right: 40px;
+    top: 2%;
+    right: 2%;
     color: #203908;
-    font-size: 40px;
-    font-weight: 600;
-    line-height: 50px;
+    font-size: 2.8vw;
+    font-weight: 700;
+    line-height: 1.3;
 }
 
 .card-section {
@@ -479,16 +488,17 @@ footer{
 
 .top-left{
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 3%;
+    left: 3%;
     color: #fff;
-    font-size: 48px;
+    font-size: 3vw;
     font-weight: 700;
+    text-transform: uppercase;
 }
 
 #card-section-in-inspections{
     width: 95%;
-    margin-top: -30px;
+    margin-top: -2.5%;
     margin-bottom: 0px;
     z-index: 2;
     opacity: 0.8;
@@ -497,7 +507,7 @@ footer{
 #info-section-in-inspection{
     padding: 1em;
     padding-bottom: 0px;
-    font-size: 22px;
+    font-size: 1.6vw;
     background-color: #DEDEDE;
 }
 
@@ -521,25 +531,26 @@ footer{
 
 .middle-top-title-icon{
     color: #082B39;
-    font-size: 48px;
+    font-size: 4vw;
     padding-right: 1em;
 }
 
 .middle-top-title-text{
     color: #024160;
     padding-right: 1em;
+    font-size: 1.5vw;
 } 
 
 .middle-top-info{
     margin: 1.2em 5em 1em 1em;
-    font-size: 20px;
+    font-size: 1.4vw;
     font-weight: 300;
 }
 
 .middle-top-right{
-    width: 100vw;
+    width: 100%;
     position: relative;
-    right: 15px;
+    right: 1%;
 }
 
 .middle-top-right img{
@@ -549,8 +560,10 @@ footer{
 
 .middle-list{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     font-weight: bold;
+    font-size: 1.2vw;
     line-height: 2;
 }
 
@@ -560,7 +573,7 @@ footer{
 
 #bottom-in-inspections{
     position: relative;
-    margin-top: 90px;
+    margin-top: 6%;
 
 }
 
@@ -573,7 +586,55 @@ footer{
     height: 61vh;
     border-radius: 26px;
     position:absolute;
-    top: -70px;
-    left: 68px;
+    top: -20%;
+    left: 5%;
     object-fit: cover;
+}
+
+
+
+/* Training_services */
+
+#top-right-in-training{
+    color: #024160;
+    font-size: 4vw;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.top-bottom-info{
+    display: flex;
+    gap: 1%;
+    margin-top: 2%;
+    position: relative;
+}
+
+.top-bottom-info-text{
+    font-size: 1.3vw;
+    width: 55%;
+}
+
+.top-bottom-info-image-container{
+    width: 450px;
+    height: 500px;
+    background-color: red;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+
+.top-bottom-info-image {
+    width: 100%;
+}
+
+.top-bottom-info-image img{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.training-middle-list{
+    display: flex;
+    padding-left: 10%;
+    font-weight: bold;
+    line-height: 2;
 }
