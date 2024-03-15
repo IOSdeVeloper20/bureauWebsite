@@ -267,9 +267,9 @@ footer{
 .footer-nav a{
     color: #11B5EA;
     text-decoration: none;
-    font-size: 1em;
+    font-size: 1.2vw;
     font-weight: 500;
-    padding-left: 30px;
+    padding-left:1%
 }
 
 .footer-nav a:hover{
@@ -278,7 +278,7 @@ footer{
 
 .top-scroll a{
     color: #fff;
-    font-size: 2em;
+    font-size: 2.5vw;
     padding-right: 60px;
     justify-content: left;
     float: right;
@@ -300,8 +300,7 @@ footer{
 }
 
 .footer-logo{
-    width: 224px;
-    height: 170px;
+    width: 40%;
 }
 
 .footer-logo img{
@@ -310,6 +309,12 @@ footer{
 
 .communication ul{
     list-style-type: none;
+    line-height: 2.3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-size: 1.1vw;
+    padding-bottom: 2%;
 }
 
 .communication a{
@@ -323,8 +328,8 @@ footer{
 
 .bottom-social-icon a{
     color: #fff;
-    font-size: 1.7em;
-    padding-right: 30px;
+    font-size: 2vw;
+    padding-right: 2.5%;
     justify-content: left;
     float: right;
 }
@@ -337,10 +342,11 @@ footer{
     display: flex;
     justify-content: center;
     color: #8f8c8c;
+    font-size: 1vw;
 }
 
 .copy-icon{
-    font-size: 1.3em;
+    font-size: 1.2vw;
 }
 
 
@@ -614,21 +620,18 @@ footer{
     width: 55%;
 }
 
-.top-bottom-info-image-container{
-    width: 450px;
-    height: 500px;
-    background-color: red;
+.top-bottom-info-image {
+    width: 45%;
     position: absolute;
     right: 0%;
     top: 0%;
-}
-
-.top-bottom-info-image {
-    width: 100%;
+    border-radius: 25px;
 }
 
 .top-bottom-info-image img{
     width: 100%;
+    height: 65vh;
+    object-fit: fill;
     border-radius: 25px;
 }
 
@@ -637,4 +640,19 @@ footer{
     padding-left: 10%;
     font-weight: bold;
     line-height: 2;
+}
+
+#bottom-in-training{
+    position: relative;
+    margin-top: 13%;
+}
+
+#bottom-image-in-training{
+    width: 90%;
+    height: 61vh;
+    border-radius: 26px;
+    position:absolute;
+    top: -20%;
+    left: 5%;
+    object-fit: cover;
 }
