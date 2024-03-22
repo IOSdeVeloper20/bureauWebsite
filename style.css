@@ -806,6 +806,7 @@ footer{
 .gallery-middle-container p{
     font-size: 1.2vw;
     font-weight: 700;
+    white-space: nowrap;
 }
 
 .gallery-middle-left-image{
