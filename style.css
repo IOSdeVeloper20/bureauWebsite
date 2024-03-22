@@ -579,22 +579,26 @@ footer{
 }
 
 #bottom-in-inspections{
-    position: relative;
+    /* position: relative; */
     margin-top: 6%;
-
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-image-in-inspections{
-    width: 90%;
+    width: 95%;
+    height: 20em;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .bottom-image-in-inspections img{
     width: 90%;
-    height: 61vh;
+    height: 55vh;
     border-radius: 26px;
     position:absolute;
-    top: -20%;
-    left: 5%;
+    top: -27%;
     object-fit: cover;
 }
 
@@ -644,17 +648,18 @@ footer{
 }
 
 #bottom-in-training{
-    position: relative;
     margin-top: 13%;
+    display: flex;
+    justify-content: center;
 }
 
 #bottom-image-in-training{
     width: 90%;
-    height: 61vh;
-    border-radius: 26px;
-    position:absolute;
-    top: -20%;
-    left: 5%;
+}
+
+#bottom-image-in-training img{
+    width: 100%;
+    top: -40%;
     object-fit: cover;
 }
 
